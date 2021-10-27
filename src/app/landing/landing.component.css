@@ -1,0 +1,102 @@
+.greencon{
+    border: 1px solid #005c45 ;
+    background-color:#005c45;
+   padding-top: 80px;
+   overflow: auto;
+   padding-bottom: 115px;
+   margin-top: 50px;
+    
+    
+}
+.grenconlf{
+
+    width: 705px;
+   margin-left: 125px;
+  
+  
+  
+   
+}
+
+.grenconri{
+  
+    width: 515px;
+   float: right;
+    margin: 0;
+  margin-right: 150px;
+  background-color: white;
+  border-radius: 5px;
+    padding-bottom: 20px;
+  padding-left: 20px;
+}
+.grenconlf h1{
+    font-size: 64px;
+    color: white;
+ 
+}
+
+.grenconlf p{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.7);
+   
+}
+
+.mesg table td{
+    padding-left: 10px;
+}
+.td1{
+    font-size: 18px;
+    color: white;
+}
+.td2{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.mesg{
+    display: inline-block;
+}
+.s{
+    display: inline-block;
+    margin-left: 120px;
+}
+.con1{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+
+.con2_1{
+    
+    width: 300px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.glyphicon{
+    font-size: 40px;
+    color: green;
+}
+
+.a2_1{
+    color: green;
+    font-size: 18px;
+}
+.con3 {
+    margin-top: 90px;
+    text-align: center;
+}
+.con3 img{
+    height: 200px;
+    width: 200px;
+}
+
+button{
+    height: 55px;
+    margin-left: 5px;
+    border: none;
+    background-color: #008060;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}

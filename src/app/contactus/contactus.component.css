@@ -1,0 +1,45 @@
+.contactus{
+    border: 1px solid #fef8f2;
+    height: 660px;
+    background-color: #fef8f2;
+    margin-top: 10px;
+    padding: 130px 0 0 150px;
+}
+.heading h1{
+    color: #008060;
+    font-size: 64px;
+}
+.heading span{
+    color:#f1b980;
+}
+.heading p{
+   
+    width: 555px;
+    font-size: 24px;
+}
+.help1{
+  
+    width: 300px;
+    display: inline-block;
+    margin-left: 25px;
+    padding: 15px;
+    
+}
+.glyphicon{
+    font-size: 40px;
+    color: green;
+}
+.help1 h2{
+    font-size: 22px;
+    color: #00221c;
+}
+
+
+.help1 h4{
+    font-size: 16px;
+    color:#005c45
+}
+
+.glyphicon-chevron-right{
+    font-size: 16px;
+}

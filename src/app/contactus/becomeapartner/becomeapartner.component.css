@@ -1,0 +1,60 @@
+.col h1{
+    
+    color: #008060;
+    font-size: 48px;
+  
+
+}
+
+.row{
+    margin-top: 50px;
+    
+}
+.col{
+    padding-left: 80px;
+}
+.col1{
+   padding: 80px;
+}
+input{
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 178, 178);
+}
+button{
+    height: 55px;
+    margin-left: 5px;
+    border: none;
+    background-color: #008060;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.col p{
+    margin-top: 15px;
+}
+.con2{
+    margin-top: 50px;
+    text-align: center;
+}
+.con21{
+    text-align: center;
+}
+.glyphicon{
+    font-size: 40px;
+    margin-top: 20px;
+    color: #008060;
+}
+.row2{
+    padding-bottom: 20px;
+}
+
+.con3 {
+    margin-top: 90px;
+    text-align: center;
+}
+.con3 img{
+    height: 200px;
+    width: 200px;
+}

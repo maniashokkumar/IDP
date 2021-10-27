@@ -1,0 +1,17 @@
+.loan{
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+   
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+h1{
+    color: red;
+}
+span{
+    color: green;
+}

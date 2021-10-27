@@ -1,0 +1,41 @@
+<div class="loancalculator">
+    <h1>EMI Calculator for Home Loan, Car Loan & Personal Loan in India </h1>
+
+    <div>
+        <input class="radio" (change)="check($event)" type="radio" name="a" value=10.5><a>Personal Loan</a>
+        <input class="radio" (change)="check($event)" type="radio" name="a" value=6.50> <a>Home Loan</a>
+        <input class="radio"  (change)="check($event)" type="radio" name="a" value=9> <a>Vehicle Loan</a>
+        <input class="radio"  (change)="check($event)" type="radio" name="a" value=6.85><a>Education Loan</a><br><br>
+
+            <input type="number" #phone placeholder="Enter the Principle Amount"><br><br>
+            <input type="number"#tenure placeholder="Loan Tenure(In YEAR)"><br><br>
+            <input placeholder="Interest Rate" value={{check1}} ><br><br>
+
+
+
+            <!---<select (change)="selected($event)" >
+                <option  disabled  value="0">Select Loan</option>
+                <option value=10.5 >Personal Loan</option>
+                <option value=6.50>Home Loan</option>
+                <option value=9>Vehicle Loan</option>
+                <option value=6.85>Education Loan</option>
+            </select><br><br> -->
+            <button (click)="abc(phone.value,tenure.value)">Calculate</button>
+            <h1>Total Interest you have to pay:{{b}}</h1>
+
+
+       
+
+
+
+           
+
+
+
+            <br>
+            
+         
+
+    </div>
+
+</div>

@@ -1,0 +1,10 @@
+
+  .social{
+    border: 1px solid green;
+    background-color: black;
+    position: fixed;
+    top:50%;
+    margin-left: 97%;
+    padding: 10px;
+    border-radius: 10px;
+  }
