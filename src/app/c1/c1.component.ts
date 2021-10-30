@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ServicedemoService } from '../servicedemo.service';
+
 
 @Component({
   selector: 'app-c1',
@@ -8,16 +8,14 @@ import { ServicedemoService } from '../servicedemo.service';
 })
 export class C1Component implements OnInit {
 
-  constructor(private a:ServicedemoService) {
+  constructor() {
 
    }
 
   ngOnInit(): void {
   }
- 
-  abc(myname:any){
-    this.a.xyx(myname)
-    console.log(myname)
-    
+  abc(name:any){
+
   }
+
 }

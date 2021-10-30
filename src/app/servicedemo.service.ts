@@ -6,11 +6,12 @@ import { Injectable } from '@angular/core';
 export class ServicedemoService {
 
   constructor() { }
-name2=''
-  xyx(myname1:any){
-    alert("hi ");
-    this.name2=myname1;
-    console.log("hii"+this.name2)
-   
+
+
+  myemail:any;
+  abc(email:any){
+    this.myemail=email;
+    console.log(this.myemail)
   }
+
 }

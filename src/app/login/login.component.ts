@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ServicedemoService } from '../servicedemo.service';
 
 
 @Component({
@@ -9,32 +10,35 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router:Router,private dbl:ServicedemoService) { }
+  user_email:any;
 
   ngOnInit(): void {
-  }
+  }     
   login(name:any,email:string){
-
+                                                           
    let variable:string | null= localStorage.getItem(email);
   
     if(variable == null){
-      alert("")
+      alert("NO USER")
       this.router.navigateByUrl("signin")
       return;
     }
     let ob:any = JSON.parse(variable);
     console.log(ob.name);
+    
 
-    /*let email1: any = JSON.parse();
-    console.log(email1.name);
-    console.log(typeof(email1.email));
-    if(email1.email==''){
-      alert("Invalid")
+    if(ob.email==email){
+      alert("login")
+      this.user_email=ob.email;
     }
-    else if(email==email1.email){
-      alert("Hi you are successfully loged in:  ")
+    else{
+      alert("no user")
     }
-   */
+
+   this.dbl.abc(this.user_email)
   }
+  
+  
  
 }
