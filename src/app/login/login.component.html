@@ -6,12 +6,14 @@
     <input #name id="name" placeholder="Type Your Name">
     
     <br><br>
-    
+    <label>Email</label><br><br>
+    <input #email placeholder="email">
+    <br><br>
     <label>Password</label><br><br>
     <input placeholder="Password">
 
     <br><br>
-    <button (click)="login(name.value)">Log In</button>
+    <button (click)="login(name.value,email.value)">Log In</button>
    
 
     

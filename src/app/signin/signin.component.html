@@ -21,14 +21,14 @@
       
       <br><br>
       <label>Your Email</label><br><br>
-      <input id="email" placeholder="example@site.com">
+      <input id="email" #email placeholder="example@site.com">
       <br><br>
       <label>Password</label>
       <input placeholder="Password">
      
 
       <br><br>
-      <input type="button"  class="button3" value="Create" (click)="create(name.value)">
+      <input type="button"  class="button3" value="Create" (click)="create(name.value, email.value)">
      
     </form>
     <h2>Need help? &nbsp;<a href="#">Visit Our Help centre? &nbsp;&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a></h2>
